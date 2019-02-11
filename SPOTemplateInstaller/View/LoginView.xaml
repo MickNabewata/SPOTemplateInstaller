@@ -1,0 +1,30 @@
+﻿<Window x:Class="SPOTemplateInstaller.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SPOTemplateInstaller"
+        mc:Ignorable="d"
+        Title="ログイン" Height="200" Width="420" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Margin="10">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Label Content="ドメイン" Width="100" />
+                <Label Content="https://" />
+                <TextBox Width="100" Text="{Binding Domain}" />
+                <Label Content="-admin.sharepoint.com" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Label Content="アカウント" Width="100" />
+                <TextBox Width="275" Text="{Binding Account}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Label Content="パスワード" Width="100" />
+                <TextBox Width="275" Text="{Binding Password}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5,5,15,5" HorizontalAlignment="Right">
+                <Button Content="ログイン" Padding="10, 5, 10, 5" Command="{Binding LoginCommand}" IsDefault="True" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,63 @@
+﻿<Window x:Class="SPOTemplateInstaller.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SPOTemplateInstaller"
+        mc:Ignorable="d"
+        Title="SharePoint Online サイトスクリプト適用ツール" Height="650" Width="680" WindowStartupLocation="CenterScreen" >
+
+    <Window.Resources>
+        <Style TargetType="TreeViewItem">
+            <Setter Property="IsExpanded" Value="{Binding Path=IsExpanded, Mode=TwoWay}" />
+            <Setter Property="IsSelected" Value="{Binding Path=IsSelected, Mode=TwoWay}" />
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <StackPanel>
+            <GroupBox Header="検索" Margin="5" >
+                <StackPanel HorizontalAlignment="Left" >
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="サイト名" Margin="5" />
+                        <TextBox Width="200" Margin="5" Text="{Binding SiteName}" />
+                        <Label Content="サイトURL" Margin="5" />
+                        <TextBox Width="300" Margin="5" Text="{Binding SiteURL}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button Content="検索" Margin="5" Padding="10, 5, 10, 5" Command="{Binding SearchCommand}" />
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="サイトを選択" Margin="5" >
+                <TabControl Margin="5">
+                    <TabItem Header="サイト一覧" IsSelected="True">
+                        <StackPanel>
+                            <TreeView Grid.Column="0" ItemsSource="{Binding Sites}" Margin="5" Height="400">
+                                <TreeView.ItemTemplate>
+                                    <HierarchicalDataTemplate DataType="local:Site" ItemsSource="{Binding SubSites}">
+                                        <TextBlock Text="{Binding DisplayTitle}" />
+                                    </HierarchicalDataTemplate>
+                                </TreeView.ItemTemplate>
+                            </TreeView>
+                            <StackPanel Orientation="Horizontal" >
+                                <Button Content="テンプレート取得" Command="{Binding GetTemplateCommand}" Margin="5" />
+                                <Button Content="テンプレート適用" Command="{Binding ApplyTemplateCommand}" Margin="5" />
+                            </StackPanel>
+                        </StackPanel>
+                    </TabItem>
+                    <TabItem Header="ログ" IsSelected="{Binding LogTabSelected}">
+                        <StackPanel>
+                            <TextBox Text="{Binding Log}" IsReadOnly="True" Height="400" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" />
+                            <StackPanel Orientation="Horizontal" >
+                                <Button Content="ログファイルに保存" Command="{Binding SaveLogCommand}" Margin="5" />
+                                <Button Content="ログクリア" Command="{Binding ClearLogCommand}" Margin="5" />
+                            </StackPanel>
+                        </StackPanel>
+                    </TabItem>
+                </TabControl>
+            </GroupBox>
+            
+        </StackPanel>
+    </Grid>
+</Window>
