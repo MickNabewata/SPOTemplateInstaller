@@ -1,7 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using System.Windows;
-using SPOTemplateInstaller.Model.SPOObjects;
 using SPOTemplateInstaller.ViewModel.LoginView;
 
 namespace SPOTemplateInstaller

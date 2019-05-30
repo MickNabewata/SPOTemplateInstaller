@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
-using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
-using SPOTemplateInstaller.Model.SPOObjects;
-using SPOTemplateInstaller.ViewModel;
-using SPOTemplateInstaller.Model.ConnectionInfo.SharePoint;
+using SPOTemplateInstallLibrary.Model.ConnectionInfo.SharePoint;
 using SPOTemplateInstaller.ViewModel.MainView.Commands;
 
 namespace SPOTemplateInstaller.ViewModel.MainView

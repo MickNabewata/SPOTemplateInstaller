@@ -3,9 +3,9 @@ using System.IO;
 using System.Windows;
 using Microsoft.Win32;
 using System.Threading.Tasks;
-using SPOTemplateInstaller.Util;
-using SPOTemplateInstaller.Model.ConnectionInfo.SharePoint;
-using SPOTemplateInstaller.Model.ConnectionInfo.PnPTemplates;
+using SPOTemplateInstallLibrary;
+using SPOTemplateInstallLibrary.Model.ConnectionInfo.SharePoint;
+using SPOTemplateInstallLibrary.Model.ConnectionInfo.PnPTemplates;
 
 namespace SPOTemplateInstaller.ViewModel.MainView.Commands
 {

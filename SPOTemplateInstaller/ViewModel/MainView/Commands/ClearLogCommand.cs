@@ -1,12 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Windows;
-using Microsoft.Win32;
-using System.Collections.ObjectModel;
-using System.Threading.Tasks;
-using SPOTemplateInstaller.Util;
-
-namespace SPOTemplateInstaller.ViewModel.MainView.Commands
+﻿namespace SPOTemplateInstaller.ViewModel.MainView.Commands
 {
     /// <summary>
     /// ログクリアボタン イベント

@@ -3,7 +3,7 @@ using System.Linq;
 using System.Windows;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
-using SPOTemplateInstaller.Util;
+using SPOTemplateInstallLibrary;
 
 namespace SPOTemplateInstaller.ViewModel.MainView.Commands
 {

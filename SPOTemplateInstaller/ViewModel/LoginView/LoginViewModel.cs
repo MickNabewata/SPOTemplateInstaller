@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Windows.Input;
-using System.Linq;
-using System.Text;
-using System.Threading;
+﻿using System.Windows.Input;
 using System.Threading.Tasks;
 using SPOTemplateInstaller.Util;
 using SPOTemplateInstaller.ViewModel.LoginView.Commands;
-using SPOTemplateInstaller.Model.ConnectionInfo.SharePoint;
 
 namespace SPOTemplateInstaller.ViewModel.LoginView
 {

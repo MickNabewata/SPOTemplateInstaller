@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SPOTemplateInstaller.Model.AppSettings    
+﻿namespace SPOTemplateInstaller.Model.AppSettings
 {
     /// <summary>
     /// アプリケーション設定ファイル アカウント名設定
