@@ -50,7 +50,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>3B593A9C4495F2F739ECDF4B4EAD6ECF1C0836B5</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>A3D3C8DD915F66E25E85ABADF87BF5B26FB7A020</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>SPOTemplateInstaller_TemporaryKey.pfx</ManifestKeyFile>
@@ -105,61 +105,61 @@
       <HintPath>..\packages\Microsoft.IdentityModel.Tokens.5.2.4\lib\net451\Microsoft.IdentityModel.Tokens.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Office.Client.Policy, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.Office.Client.Policy.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.Office.Client.Policy.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Office.Client.TranslationServices, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.Office.Client.TranslationServices.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.Office.Client.TranslationServices.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Office.SharePoint.Tools, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.Office.SharePoint.Tools.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.Office.SharePoint.Tools.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Online.SharePoint.Client.Tenant, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.Online.SharePoint.Client.Tenant.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.Online.SharePoint.Client.Tenant.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.ProjectServer.Client, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.ProjectServer.Client.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.ProjectServer.Client.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SharePoint.Client, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.SharePoint.Client.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.SharePoint.Client.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SharePoint.Client.DocumentManagement, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.SharePoint.Client.DocumentManagement.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.SharePoint.Client.DocumentManagement.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SharePoint.Client.Publishing, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.SharePoint.Client.Publishing.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.SharePoint.Client.Publishing.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SharePoint.Client.Runtime.Windows, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.SharePoint.Client.Runtime.Windows.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.SharePoint.Client.Runtime.Windows.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SharePoint.Client.Search, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.SharePoint.Client.Search.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.SharePoint.Client.Search.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SharePoint.Client.Search.Applications, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.SharePoint.Client.Search.Applications.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.SharePoint.Client.Search.Applications.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SharePoint.Client.Taxonomy, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.SharePoint.Client.Taxonomy.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.SharePoint.Client.Taxonomy.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SharePoint.Client.UserProfiles, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.SharePoint.Client.UserProfiles.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.SharePoint.Client.UserProfiles.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SharePoint.Client.WorkflowServices, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8412.1200\lib\net45\Microsoft.SharePoint.Client.WorkflowServices.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.8810.1200\lib\net45\Microsoft.SharePoint.Client.WorkflowServices.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAzure.Storage, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\WindowsAzure.Storage.7.0.0\lib\net40\Microsoft.WindowsAzure.Storage.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="OfficeDevPnP.Core, Version=3.5.1901.0, Culture=neutral, PublicKeyToken=5e633289e95c321a, processorArchitecture=MSIL">
-      <HintPath>..\packages\SharePointPnPCoreOnline.3.5.1901\lib\net45\OfficeDevPnP.Core.dll</HintPath>
+    <Reference Include="OfficeDevPnP.Core, Version=3.9.1905.3, Culture=neutral, PublicKeyToken=5e633289e95c321a, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharePointPnPCoreOnline.3.9.1905.3\lib\net45\OfficeDevPnP.Core.dll</HintPath>
     </Reference>
-    <Reference Include="SharePointPnP.IdentityModel.Extensions, Version=1.2.3.0, Culture=neutral, PublicKeyToken=5e633289e95c321a, processorArchitecture=MSIL">
-      <HintPath>..\packages\SharePointPnP.IdentityModel.Extensions.1.2.3\lib\net45\SharePointPnP.IdentityModel.Extensions.dll</HintPath>
+    <Reference Include="SharePointPnP.IdentityModel.Extensions, Version=1.2.4.0, Culture=neutral, PublicKeyToken=5e633289e95c321a, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharePointPnP.IdentityModel.Extensions.1.2.4\lib\net45\SharePointPnP.IdentityModel.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -295,84 +295,6 @@
       <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\AngleSharp.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\de\Microsoft.Data.Edm.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\de\Microsoft.Data.OData.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\de\Microsoft.Data.Services.Client.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\de\System.Spatial.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\es\Microsoft.Data.Edm.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\es\Microsoft.Data.OData.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\es\Microsoft.Data.Services.Client.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\es\System.Spatial.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\fr\Microsoft.Data.Edm.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\fr\Microsoft.Data.OData.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\fr\Microsoft.Data.Services.Client.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\fr\System.Spatial.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\it\Microsoft.Data.Edm.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\it\Microsoft.Data.OData.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\it\Microsoft.Data.Services.Client.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\it\System.Spatial.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\ja\Microsoft.Data.Edm.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\ja\Microsoft.Data.OData.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\ja\Microsoft.Data.Services.Client.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\ja\System.Spatial.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\ko\Microsoft.Data.Edm.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\ko\Microsoft.Data.OData.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\ko\Microsoft.Data.Services.Client.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\ko\System.Spatial.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.Azure.ActiveDirectory.GraphClient.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.Azure.KeyVault.Core.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.Data.Edm.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.Data.OData.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.Data.Services.Client.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.Graph.Core.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.Graph.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.IdentityModel.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.IdentityModel.JsonWebTokens.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.IdentityModel.Logging.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.IdentityModel.Tokens.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.Office.Client.Policy.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.Office.Client.TranslationServices.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.Office.SharePoint.Tools.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.Online.SharePoint.Client.Tenant.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.ProjectServer.Client.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.SharePoint.Client.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.SharePoint.Client.DocumentManagement.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.SharePoint.Client.Publishing.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.SharePoint.Client.Runtime.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.SharePoint.Client.Runtime.Windows.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.SharePoint.Client.Search.Applications.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.SharePoint.Client.Search.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.SharePoint.Client.Taxonomy.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.SharePoint.Client.UserProfiles.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.SharePoint.Client.WorkflowServices.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Microsoft.WindowsAzure.Storage.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\Newtonsoft.Json.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\OfficeDevPnP.Core.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\ru\Microsoft.Data.Edm.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\ru\Microsoft.Data.OData.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\ru\Microsoft.Data.Services.Client.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\ru\System.Spatial.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\SharePointPnP.IdentityModel.Extensions.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\SPOTemplateInstaller.application" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\SPOTemplateInstaller.exe.config.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\SPOTemplateInstaller.exe.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\SPOTemplateInstaller.exe.manifest" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\System.IdentityModel.Tokens.Jwt.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\System.Net.Http.Formatting.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\System.Spatial.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\System.Web.Http.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\zh-Hans\Microsoft.Data.Edm.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\zh-Hans\Microsoft.Data.OData.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\zh-Hans\Microsoft.Data.Services.Client.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\zh-Hans\System.Spatial.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\zh-Hant\Microsoft.Data.Edm.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\zh-Hant\Microsoft.Data.OData.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\zh-Hant\Microsoft.Data.Services.Client.resources.dll.deploy" />
-    <None Include="Publish\Application Files\SPOTemplateInstaller_1_0_0_1\zh-Hant\System.Spatial.resources.dll.deploy" />
-    <None Include="Publish\SPOTemplateInstaller.application" />
     <None Include="SPOTemplateInstaller_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -386,8 +308,5 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Content Include="Publish\setup.exe" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
