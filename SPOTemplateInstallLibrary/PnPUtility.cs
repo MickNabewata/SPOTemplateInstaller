@@ -97,6 +97,15 @@ namespace SPOTemplateInstallLibrary
                     // SharePointグループを含む
                     IncludeSiteGroups = true,
 
+                    // 用語セットを含める
+                    IncludeAllTermGroups = true,
+
+                    // 用語セットの権限を含める
+                    IncludeTermGroupsSecurity = true,
+
+                    // 隠しリストを含める
+                    IncludeHiddenLists = true,
+
                     // 発行ファイル(マスターページ/ページレイアウトなど)を含む
                     PersistPublishingFiles = true
                 };
@@ -107,7 +116,7 @@ namespace SPOTemplateInstallLibrary
                 ret = template.ToXML();
 
                 // テンプレート保存
-                progress?.Report($"2/3 テンプレートを保存：{ templateSaveInfo.FileIdentifer }");
+                progress?.Report($"3/3 テンプレートを保存：{ templateSaveInfo.FileIdentifer }");
                 templateSaveInfo.GetConnector().SaveFileStream(templateSaveInfo.FileIdentifer, new MemoryStream(Encoding.UTF8.GetBytes(ret)));
 
                 #endregion
