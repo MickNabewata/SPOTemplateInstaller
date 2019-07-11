@@ -106,6 +106,9 @@ namespace SPOTemplateInstallLibrary
                     // 隠しリストを含める
                     IncludeHiddenLists = true,
 
+                    // 「ページ」ライブラリ内の全ページを含める
+                    IncludeAllClientSidePages = true,
+
                     // 発行ファイル(マスターページ/ページレイアウトなど)を含む
                     PersistPublishingFiles = true
                 };
