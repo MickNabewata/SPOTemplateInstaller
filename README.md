@@ -21,7 +21,8 @@
   
 ### インストール方法
 
-[publish](https://github.com/MickNabewata/SPOTemplateInstaller/tree/master/SPOTemplateInstaller/Publish)フォルダからインストーラをダウンロードして実行します。
+[publish](https://github.com/MickNabewata/SPOTemplateInstaller/tree/master/SPOTemplateInstaller/modules)フォルダからビルド済モジュールをダウンロードして任意のフォルダに配置します。  
+ダウンロードしたフォルダ内のSPOTemplateInstaller.exeを実行すると画面が起動します。
 
 ## SPOTemplateInstallBat
 
@@ -78,7 +79,8 @@ Select one site to export or import a PnP Provisioning Template file.
   
 ### Instlation
 
-Get a installer form [publish](https://github.com/MickNabewata/SPOTemplateInstaller/tree/master/SPOTemplateInstaller/Publish) folder.
+Get modules form [publish](https://github.com/MickNabewata/SPOTemplateInstaller/tree/master/SPOTemplateInstaller/modules) folder.  
+To start this tool, run SPOTemplateInstaller.exe.
 
 ## SPOTemplateInstallBat
 
