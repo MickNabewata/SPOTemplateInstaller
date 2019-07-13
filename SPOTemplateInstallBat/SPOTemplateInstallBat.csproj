@@ -78,10 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="modules\SPOTemplateInstallBat.application" />
-    <None Include="modules\SPOTemplateInstallBat.exe.config" />
-    <None Include="modules\SPOTemplateInstallBat.exe.manifest" />
-    <None Include="modules\SPOTemplateInstallLibrary.dll.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SPOTemplateInstallLibrary\SPOTemplateInstallLibrary.csproj">
@@ -100,102 +96,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="modules\AngleSharp.dll" />
-    <Content Include="modules\AngleSharp.xml" />
-    <Content Include="modules\app.publish\SPOTemplateInstallBat.exe" />
-    <Content Include="modules\de\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="modules\de\Microsoft.Data.OData.resources.dll" />
-    <Content Include="modules\de\Microsoft.Data.Services.Client.resources.dll" />
-    <Content Include="modules\de\System.Spatial.resources.dll" />
-    <Content Include="modules\es\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="modules\es\Microsoft.Data.OData.resources.dll" />
-    <Content Include="modules\es\Microsoft.Data.Services.Client.resources.dll" />
-    <Content Include="modules\es\System.Spatial.resources.dll" />
-    <Content Include="modules\fr\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="modules\fr\Microsoft.Data.OData.resources.dll" />
-    <Content Include="modules\fr\Microsoft.Data.Services.Client.resources.dll" />
-    <Content Include="modules\fr\System.Spatial.resources.dll" />
-    <Content Include="modules\it\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="modules\it\Microsoft.Data.OData.resources.dll" />
-    <Content Include="modules\it\Microsoft.Data.Services.Client.resources.dll" />
-    <Content Include="modules\it\System.Spatial.resources.dll" />
-    <Content Include="modules\ja\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="modules\ja\Microsoft.Data.OData.resources.dll" />
-    <Content Include="modules\ja\Microsoft.Data.Services.Client.resources.dll" />
-    <Content Include="modules\ja\System.Spatial.resources.dll" />
-    <Content Include="modules\ko\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="modules\ko\Microsoft.Data.OData.resources.dll" />
-    <Content Include="modules\ko\Microsoft.Data.Services.Client.resources.dll" />
-    <Content Include="modules\ko\System.Spatial.resources.dll" />
-    <Content Include="modules\Microsoft.Azure.KeyVault.Core.dll" />
-    <Content Include="modules\Microsoft.Azure.KeyVault.Core.xml" />
-    <Content Include="modules\Microsoft.Data.Edm.dll" />
-    <Content Include="modules\Microsoft.Data.Edm.xml" />
-    <Content Include="modules\Microsoft.Data.OData.dll" />
-    <Content Include="modules\Microsoft.Data.OData.xml" />
-    <Content Include="modules\Microsoft.Data.Services.Client.dll" />
-    <Content Include="modules\Microsoft.Data.Services.Client.xml" />
-    <Content Include="modules\Microsoft.Graph.Core.dll" />
-    <Content Include="modules\Microsoft.Graph.Core.xml" />
-    <Content Include="modules\Microsoft.Graph.dll" />
-    <Content Include="modules\Microsoft.Graph.xml" />
-    <Content Include="modules\Microsoft.IdentityModel.Clients.ActiveDirectory.dll" />
-    <Content Include="modules\Microsoft.IdentityModel.Clients.ActiveDirectory.xml" />
-    <Content Include="modules\Microsoft.IdentityModel.dll" />
-    <Content Include="modules\Microsoft.IdentityModel.JsonWebTokens.dll" />
-    <Content Include="modules\Microsoft.IdentityModel.JsonWebTokens.pdb" />
-    <Content Include="modules\Microsoft.IdentityModel.JsonWebTokens.xml" />
-    <Content Include="modules\Microsoft.IdentityModel.Logging.dll" />
-    <Content Include="modules\Microsoft.IdentityModel.Logging.pdb" />
-    <Content Include="modules\Microsoft.IdentityModel.Logging.xml" />
-    <Content Include="modules\Microsoft.IdentityModel.Tokens.dll" />
-    <Content Include="modules\Microsoft.IdentityModel.Tokens.pdb" />
-    <Content Include="modules\Microsoft.IdentityModel.Tokens.xml" />
-    <Content Include="modules\Microsoft.Office.Client.Policy.dll" />
-    <Content Include="modules\Microsoft.Online.SharePoint.Client.Tenant.dll" />
-    <Content Include="modules\Microsoft.SharePoint.Client.dll" />
-    <Content Include="modules\Microsoft.SharePoint.Client.DocumentManagement.dll" />
-    <Content Include="modules\Microsoft.SharePoint.Client.Publishing.dll" />
-    <Content Include="modules\Microsoft.SharePoint.Client.Runtime.dll" />
-    <Content Include="modules\Microsoft.SharePoint.Client.Search.dll" />
-    <Content Include="modules\Microsoft.SharePoint.Client.Taxonomy.dll" />
-    <Content Include="modules\Microsoft.SharePoint.Client.UserProfiles.dll" />
-    <Content Include="modules\Microsoft.SharePoint.Client.WorkflowServices.dll" />
-    <Content Include="modules\Microsoft.WindowsAzure.Storage.dll" />
-    <Content Include="modules\Microsoft.WindowsAzure.Storage.pdb" />
-    <Content Include="modules\Microsoft.WindowsAzure.Storage.xml" />
-    <Content Include="modules\Newtonsoft.Json.dll" />
-    <Content Include="modules\Newtonsoft.Json.xml" />
-    <Content Include="modules\OfficeDevPnP.Core.dll" />
-    <Content Include="modules\OfficeDevPnP.Core.xml" />
-    <Content Include="modules\ru\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="modules\ru\Microsoft.Data.OData.resources.dll" />
-    <Content Include="modules\ru\Microsoft.Data.Services.Client.resources.dll" />
-    <Content Include="modules\ru\System.Spatial.resources.dll" />
-    <Content Include="modules\SharePointPnP.IdentityModel.Extensions.dll" />
-    <Content Include="modules\SPOTemplateInstallBat.exe" />
-    <Content Include="modules\SPOTemplateInstallBat.pdb" />
-    <Content Include="modules\SPOTemplateInstallLibrary.dll" />
-    <Content Include="modules\SPOTemplateInstallLibrary.pdb" />
-    <Content Include="modules\System.IdentityModel.Tokens.Jwt.dll" />
-    <Content Include="modules\System.IdentityModel.Tokens.Jwt.pdb" />
-    <Content Include="modules\System.IdentityModel.Tokens.Jwt.xml" />
-    <Content Include="modules\System.Net.Http.Formatting.dll" />
-    <Content Include="modules\System.Net.Http.Formatting.xml" />
-    <Content Include="modules\System.Spatial.dll" />
-    <Content Include="modules\System.Spatial.xml" />
-    <Content Include="modules\System.Web.Http.dll" />
-    <Content Include="modules\System.Web.Http.xml" />
-    <Content Include="modules\zh-Hans\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="modules\zh-Hans\Microsoft.Data.OData.resources.dll" />
-    <Content Include="modules\zh-Hans\Microsoft.Data.Services.Client.resources.dll" />
-    <Content Include="modules\zh-Hans\System.Spatial.resources.dll" />
-    <Content Include="modules\zh-Hant\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="modules\zh-Hant\Microsoft.Data.OData.resources.dll" />
-    <Content Include="modules\zh-Hant\Microsoft.Data.Services.Client.resources.dll" />
-    <Content Include="modules\zh-Hant\System.Spatial.resources.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
